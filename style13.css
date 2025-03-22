@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  
+:root{
+      /* color:#00055a */
+      --color1: #fff;
+      --color2: #5E6574;
+      --color3: #921745;
+      --color4: #000;
+      --color5: #141D26;
+      --color6: #EEE;
+      --color7: #EF52DF;
+      --color8: #243447;
+      --color9: #D9D9D9;
+      --color10: #be840f;
+      --color11: #640069;
+      --color12: #941745;
+}
+
+body{
+   height: 100VH;
+   width: 100%; 
+   font-family: "Montserrat", serif;
+   background-color: var(--color6);
+}
+
+main{
+   height: auto;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+   height: 100%;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.container .eclipse1{
+   position: absolute;
+   height: 500PX;
+   width: 500PX;
+   border-radius: 50%;
+   background-color: var(--color10);
+   right: -10%;
+   top: -10%;
+   z-index: -1;
+}
+
+.container .eclipse2{
+   position: absolute;
+   height: 500PX;
+   width: 500PX;
+   border-radius: 50%;
+   background-color: var(--color1);
+   left: -10%;
+   bottom: -10%;
+   z-index: -1;
+}
+
+.container .description-service{
+   /* height: 50%; */
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 30PX;
+   padding: 30PX 0;
+   /* background-color: #be840f; */
+}
+
+.container .description-service .desc1{
+   height: auto;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+   background-color: #5e6574d8;
+}
+
+.container .description-service .desc1 h1{
+   color: var(--color8);
+   padding-left: 40PX;
+   width: 80%;
+   position: relative;
+   text-align: left;
+   /* background-color: yellow; */
+}
+.container .description-service .desc1 h1::before{
+   content: '';
+   position: absolute;
+   width: 40PX;
+   height: 4PX;
+   background-color: var(--color10);
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+}
+
+.container .description-service .desc1 P{
+   padding-left: 40PX;
+   margin: 10PX 0;
+   width: 80%;
+   font-size: 1rem;
+   color: var(--color1);
+}
+
+.container .description-service .desc1 h2{
+   margin: 20PX 0;
+   color: var(--color8);
+}
+
+.container .description-service .desc1 .container-cartes{
+   width: 100%;
+   height: auto;
+   padding: 20PX 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20PX;
+   flex-wrap: wrap;
+   background-color: var(--color1);
+}
+
+.container .description-service .desc1 .container-cartes .carte{
+   padding: 30PX 0;
+   height: auto;
+   width: 500PX;
+   border: 3PX solid var(--color4);
+   position: relative;
+}
+
+.container .description-service .desc1 .container-cartes .carte i{
+   color: var(--color10);
+   font-size: 2rem;
+   position: absolute;
+   top: -10%;
+   left: 3%;
+   background:var(--color1);
+   width: 60PX;
+   text-align: center;
+}
+
+.container .description-service .desc1 .container-cartes .carte h3{
+   font-size: 18PX;
+   padding-left: 40PX;
+   position: relative;
+   color: var(--color4);
+}
+
+.container .description-service .desc1 .container-cartes .carte p{
+   margin-left: 40PX;
+   margin-top: 20PX;
+   width: 80%;
+   color: var(--color2);
+   /* background-color: yellow; */
+}
+
+.container .description-service .desc2{
+   padding: 20PX 0;
+   height: auto;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   flex-direction: column;
+   background-color: #5e65741b;
+}
+
+.container .description-service .desc2 h1{
+   padding-left: 40PX;
+   width: 80%;
+   position: relative;
+   text-align: left;
+   color: var(--color8);
+   /* background-color: yellow; */
+}
+.container .description-service .desc2 h1::before{
+   content: '';
+   position: absolute;
+   width: 40PX;
+   height: 4PX;
+   background-color: var(--color10);
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+}
+
+.container .description-service .desc2 P{
+   padding-left: 40PX;
+   margin: 10PX 0;
+   width: 80%;
+   font-size: 1rem;
+}
+
+.container .description-service .desc2 .container-img{
+   height: 80%;
+   width: 95%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.container .description-service .desc2 .container-img .img1{
+   width: 70%;
+   height: 500PX;
+   position: relative;
+   background: url(ASSETS/IMG-20250304-WA0031.jpg) center/cover no-repeat;
+   /* background-color: yellow; */
+   animation: scale 5S 1S ease infinite;
+   z-index: 1;
+}
+
+.container .description-service .desc2 .container-img .img1 .para{
+   position: absolute;
+   background-color: var(--color1);
+   width: 500PX;
+   padding: 20PX 0;
+   bottom: -30%;
+   left: 10%;
+   border-radius: 5PX;
+   z-index: 3;
+   box-shadow: 0 4PX 5PX #0000003e;
+}
+
+.container .description-service .desc2 .container-img .img1 .para h3{
+   padding-left: 40PX;
+}
+
+.container .description-service .desc2 .container-img .img2{
+   margin-top: 50PX;
+   width: 70%;
+   height: 500PX;
+   position: relative;
+   background: url(ASSETS/WhatsApp\ Image\ 2025-03-13\ à\ 15.47.51_dd321eaf.jpg) center/cover no-repeat;
+   /* background-color: yellow; */
+   animation: scale 5S 1S ease infinite;
+}
+
+@keyframes scale{
+   0%{
+      scale: .98;
+   }
+   100%{
+      scale: 1;
+   }
+}
+
+.container .description-service .desc2 .container-img .img2 .para{
+   position: absolute;
+   background-color: var(--color1);
+   width: 500PX;
+   padding: 20PX 0;
+   bottom: -30%;
+   right: 10%;
+   border-radius: 5PX;
+   box-shadow: 0 4PX 5PX #0000003e;
+}
+
+.container .description-service .desc2 .container-img .img2 .para h3{
+   padding-left: 40PX;
+}
+
+.container .nos-valeurs{
+   /* position: relative; */
+   margin-top: 130PX;
+   width: 90%;
+   height: 100%;
+   /* background-color: #640069; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.container .nos-valeurs h1{
+   text-align: left;
+   width: 100%;
+   padding-left: 40PX;
+   position: relative;
+   margin: 5PX 0;
+   color: var(--color8);
+}
+
+.container .nos-valeurs h1::before{
+   content: '';
+   position: absolute;
+   width: 40PX;
+   height: 4PX;
+   background-color: var(--color10);
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+}
+
+.container .nos-valeurs p{
+   /* text-align: left; */
+   width: 100%;
+   padding-left: 40PX;
+   font-size: 1rem;
+}
+
+.container .nos-valeurs .container-valeurs{
+   width:100%;
+   height: 100%;
+   /* background-color: #5E6574; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20PX;
+   margin: 50PX 0;
+}
+
+.container .nos-valeurs .container-valeurs .carte-valeur{
+   height: 200PX;
+   width: 300PX;
+   border: 3PX solid salmon;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.container .nos-valeurs .container-valeurs .carte-valeur i{
+   color: salmon;
+   font-size: 2rem;
+   position: absolute;
+   top: -10%;
+   left: 3%;
+   background:var(--color6);
+   width: 60PX;
+   text-align: center;
+}
+
+.container .nos-valeurs .container-valeurs .carte-valeur p{
+   width: 100%;
+   padding-left: unset;
+   text-align: center;
+}
+
+.container .historique{
+   height: auto;
+   width: 90%;
+   /* background-color: var(--color10); */
+   margin-bottom: 40PX;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.container .historique h1{
+   text-align: left;
+   width: 100%;
+   padding-left: 40PX;
+   position: relative;
+   margin: 5PX 0;
+   color: var(--color8);
+}
+
+.container  .historique h1::before{
+   content: '';
+   position: absolute;
+   width: 40PX;
+   height: 4PX;
+   background-color: var(--color10);
+   top: 50%;
+   transform: translateY(-50%);
+   left: 0;
+}
+
+.container .historique p{
+   /* text-align: left; */
+   width: 100%;
+   padding-left: 40PX;
+   font-size: 1rem;
+}
+
+.container .historique .container-pdf{
+   height: auto;
+   width: auto;
+   margin-top: 30PX;
+   /* background-color: var(--color1); */
+   margin-bottom: 40PX;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100PX;
+   flex-wrap: wrap;
+}
+
+.container .historique .container-pdf .pdf{
+   height: auto;
+   width: auto;
+   background-color: var(--color8);
+   padding: 5PX;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 3PX;
+}
+
+.container .historique .container-pdf .pdf .container-part{
+   width: auto;
+   height: auto;
+   padding: 5PX;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.container .historique .container-pdf .pdf .container-part .view , .container .historique .container-pdf .pdf .container-part .desc-bottom{
+   height: 50%;
+   width: 100%;
+}
+
+.container .historique .container-pdf .pdf .container-part .view{
+   background-color: var(--color1);
+   display: flex;
+   justify-content: center;
+   padding: 50PX 0;
+   border-radius: 4PX 4PX 0 0;
+   i{
+      color: var(--color2);
+      font-size: 50PX;
+   }
+}
+.container .historique .container-pdf .pdf .container-part .desc-bottom{
+   background-color: var(--color4);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10PX;
+   padding: 20PX;
+   border-radius: 0 0 4PX 4PX;
+   a{
+      margin: 10PX 0;
+      padding: 10PX 30PX;
+      background-color: var(--color1);
+      border-radius: 5PX;
+      color: var(--color4);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all .4s;
+   }
+   a:hover{
+      background-color: var(--color10);
+      color: var(--color1);
+      border-radius: 7PX;
+   }
+   .desc-document{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10PX;
+      i{
+         color: red;
+         font-size: 1.5rem;
+      }
+      p{
+         text-align: left;
+         padding-left: unset;
+         color: var(--color1);
+       }
+   }
+}
+

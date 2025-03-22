@@ -1,0 +1,63 @@
+
+@media screen and (min-width: 300PX) and (max-width: 655PX){
+   
+   main #sec1{
+      height: 80%;
+      width: 90%;
+      /* background-color: yellow; */
+      border-radius: 10PX;
+      transform: translate(-50%,-50%);
+      background-image: url(ASSETS/pexels-divinetechygirl-1181406.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   main #sec1 #sec1-1{
+      width: 100%;
+      display: flex;
+      border-radius: 10PX;
+      background-color: #ffffff8d;
+   } 
+
+   main #sec1 #sec1-1 .logo{
+      height: 120PX;
+      width: 130PX;
+   }
+   
+   main #sec1 #sec1-1 .container h1{
+      font-weight: bold;
+      font-size: 30PX;
+      text-align: center;
+   }
+   
+   main #sec1 #sec1-1 .container{
+      width: 100%;
+   } 
+   main #sec1 #sec1-1 .container form{
+      width: 90%;
+   }
+   
+
+   main #sec1 #sec1-1 .container form .check{
+      font-size: 14PX;
+   }
+
+   main #sec1 #sec1-1 p{
+      font-weight: bold;
+      text-align: center;
+   }
+
+   main #sec1 #sec2{
+      width: 0;
+      height: 0;
+      /* background-color: #541a1a; */
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background-image: unset;
+      background-position: unset;
+      background-repeat: unset;
+      background-size: unset;
+   } 
+}
+

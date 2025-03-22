@@ -1,0 +1,134 @@
+@media screen and (min-width:300PX) and (max-width:800PX){
+   :root{
+      /* color:#00055a */
+      --color1: #fff;
+      --color2: #5E6574;
+      --color3: #921745;
+      --color4: #000;
+      --color5: #141D26;
+      --color6: #EEE;
+      --color7: #EF52DF;
+      --color8: #243447;
+      --color9: #D9D9D9;
+      --color10: #be840f;
+      --color11: #640069;
+      --color12: #941745;
+   }
+   
+   main{
+      height: 100%;
+      width: 100%; 
+      border-bottom-right-radius: 1000PX;
+      border-top-right-radius: 1000PX;
+      background-color: var(--color6); 
+   }  
+
+   .container .presentation{
+      width: 100%;
+      height: 50%;
+      /* background-color: white; */
+      background: url(ASSETS/pexels-mike-van-schoonderwalt-1884800-5511126.jpg) center/cover;
+      object-fit: cover;
+      background-repeat: no-repeat;
+   }
+   
+   .container .container-equipe{
+      width: 100%;
+      height: 40%;
+      background-color: #D9D9D9;
+      overflow:scroll;
+      padding: 0 20PX;
+      position: relative;
+   }
+
+   .container .container-equipe .equipe{
+      width: 200%;
+      height: 100%;
+      /* background-color: yellow; */
+      display: flex;
+      align-items: center;
+      gap: 20PX;
+   }
+
+   .container button{
+      min-height: 40PX;
+      min-width: 40PX;
+      border-radius: 50%;
+      background-color: var(--color4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+   }
+
+   .container #nextBtn{
+      position: absolute;
+      top: 70%;
+      right: 5%;
+      transition: all .3S ease;
+   }
+
+   .container  #backBtn{
+      position: absolute;
+      top: 70%;
+      left: 5%;
+      transition: all .3S ease;
+   }
+
+   .container .container-equipe .equipe .equipe1 .container-carte1 .carte1{
+      height: 80%;
+      width: 200PX;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20PX;
+      background: url(ASSETS/pexels-jep-gambardella-7689884.jpg) center/cover;
+   }
+   
+   .container .container-equipe .equipe .equipe1 .container-carte1 .carte2{
+      height: 80%;
+      width: 200PX;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20PX;
+      background: url(ASSETS/pexels-jep-gambardella-7689884.jpg) center/cover;
+   }
+   .container .container-equipe .equipe .equipe1 .container-carte1 .carte3{
+      height: 80%;
+      width: 200PX;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20PX;
+      background: url(ASSETS/pexels-jep-gambardella-7689884.jpg) center/cover;
+   }
+   
+   .container .container-equipe .equipe .equipe2 .container-carte2 .carte1{
+      height: 80%;
+      width: 200PX;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20PX;
+      background: url(ASSETS/pexels-jep-gambardella-7689884.jpg) center/cover;
+   }
+   .container .container-equipe .equipe .equipe2 .container-carte2 .carte2{
+      height: 80%;
+      width: 200PX;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20PX;
+      background: url(ASSETS/pexels-jep-gambardella-7689884.jpg) center/cover;
+   }
+   .container .container-equipe .equipe .equipe2 .container-carte2 .carte3{
+      height: 80%;
+      width: 200PX;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20PX;
+      background: url(ASSETS/pexels-jep-gambardella-7689884.jpg) center/cover;
+   }
+}

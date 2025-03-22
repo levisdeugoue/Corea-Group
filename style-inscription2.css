@@ -1,0 +1,30 @@
+
+@media screen and (min-width: 800PX) and (max-width: 1660PX){
+   
+   main #sec1{
+      display: flex;
+      position: relative;
+      height: 80%;
+      width: 90%;
+      /* background-color: yellow; */
+      border-radius: 10PX;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+   }
+   
+   main #sec1 #sec1-1 .container h1{
+      font-weight: bold;
+      font-size: 30PX;
+      text-align: center;
+   }
+   
+   main #sec1 #sec1-1 .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15PX;
+      width: 100%;
+   } 
+}
+

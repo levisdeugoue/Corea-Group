@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+   width: 100%;
+   font-family: "Montserrat", serif;
+}
+
+main{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   background-color: #eee;
+   background-image: url(ASSETS/pexels-fauxels-3184419.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+main .color-right{
+   position: absolute;
+   width: 45%;
+   height: 100%;
+   right: 0;
+   background-color: #0000007e;
+}
+
+main #sec1{
+   display: flex;
+   position: relative;
+   height: 70%;
+   width: 60%;
+   /* background-color: yellow; */
+   border-radius: 10PX;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+main #sec1 #sec1-1{
+   width: 55%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20PX;
+   background-color: #ffffff;
+   border-top-left-radius: 10PX;
+   border-bottom-left-radius: 10PX;
+} 
+
+main #sec1 #sec1-1 .logo{
+   height: 120PX;
+   width: 170PX;
+   margin-top: 30PX;
+   background-image: url(ASSETS/NOIR\ 2.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+main #sec1 #sec1-1 .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 15PX;
+   width: 80%;
+}
+
+main #sec1 #sec1-1 .container h1{
+   font-weight: bold;
+   font-size: 30PX;
+}
+
+main #sec1 #sec1-1 .container .inscription{
+   font-weight: bold;
+   font-size: 15PX;
+   color: gray;
+   position: relative;
+}
+
+main #sec1 #sec1-1 .container .inscription::before{
+   content: "";
+   height: 2PX;
+   width: 100PX;
+   background-color: rgba(128, 128, 128, 0.195);
+   position: absolute;
+   top: 50%;
+   right: 110%;
+   transform: translateY(-50%);
+}
+
+main #sec1 #sec1-1 .container .inscription::after{
+   content: "";
+   height: 2PX;
+   width: 100PX;
+   background-color: rgba(128, 128, 128, 0.195);
+   position: absolute;
+   left: 110%;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+main #sec1 #sec1-1 .container form{
+   display: flex;
+   flex-direction: column;
+   gap: 5PX;
+   width: 80%;
+}
+
+main #sec1 #sec1-1 .container form input{
+   padding: 15PX 10PX;
+   border: 1PX solid rgba(128, 128, 128, 0.195);
+   box-shadow: 1PX 1PX 5PX rgba(128, 128, 128, 0.195);
+   font-size: 15PX;
+   font-weight: bold;
+   font-family: "Montserrat", serif;
+   border-radius: 5PX;
+   outline: none;
+}
+
+
+main #sec1 #sec1-1 .container #connexion{
+   padding: 15PX 0;
+   background-color:#00055a ;
+   color: #ffffff;
+   font-size: 15PX;
+   font-weight: bold;
+   font-family: "Montserrat", serif;
+   border-radius: 5PX;
+}
+
+main #sec1 #sec1-1 .container #connexion{
+   border: none;
+   outline: none;
+}
+main #sec1 #sec1-1 .container #connexion:hover{
+   background-color:#002a5ae8 ;
+   cursor: pointer;
+}
+
+main #sec1 #sec1-1 p{
+   font-weight: bold;
+}
+
+main #sec1 #sec2{
+   width: 45%;
+   height: 100%;
+   /* background-color: #541a1a; */
+   border-top-right-radius: 10PX;
+   border-bottom-right-radius: 10PX;
+   background-image: url(ASSETS/pexels-efrem-efre-2786187-17826400.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+} 
